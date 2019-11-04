@@ -8,7 +8,7 @@ This project is booking movie ticket. Allow user select movie , choose seat and 
 -   Applying Payment with stripe ( front end only , to complete need to implement on server side with express and stripe.)
 -   Apply unit test with Jest , Enzyme for actions , reducer, component
 -   Data store on Firebase and fetch from https://www.themoviedb.org/ , for Theater and Seats info I use mock data
--   CI/DI with github, travis CI , heroku
+-   CI/CD with github, travis CI , heroku
     -   travis CI : https://travis-ci.org/thongbk83/movieBox/builds
     -   heroku demo: https://tp-movie-box.herokuapp.com/
 
