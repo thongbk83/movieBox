@@ -1,0 +1,63 @@
+.movie-home-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
+
+.movie-grid h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 42px;
+}
+
+.movie-grid-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    position: relative;
+}
+
+.movie-grid-element {
+    animation: animateGrid 0.5s;
+}
+
+.movie-moviethumb img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    opacity: 0.8;
+}
+
+@keyframes animateGrid {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movies-grid-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .movies-grid h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .movie-grid-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
