@@ -1,6 +1,6 @@
 ## Introduce
 
-This project is booking movie ticket. Allow user select seat and payment.
+This project is booking movie ticket. Allow user select movie , choose seat and payment.
 
 ### Technical
 
